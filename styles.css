@@ -1,0 +1,207 @@
+/* Global Styles */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header.secondary {
+    background-color: #f0f0f0;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    max-width: 250px; /* Adjust the size as needed */
+}
+
+.tagline {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+
+/* Login Box Styles */
+.loginbox {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.student-box, .alumni-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.student-box h2, .alumni-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.student-box p, .alumni-box p {
+    font-size: 16px;
+    color: #555;
+}
+.login-note {
+    font-size: 11px;
+    color: red; /* Change color to red */
+    margin-top: 10px;
+    font-style: italic; /* Make it italic */
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-warning {
+    background-color: #e35205;
+}
+
+.btn-info {
+    background-color: #0096FF ;
+}
+
+.btn:hover {
+    background-color: darken(currentColor, 10%);
+}
+
+/* Footer Styles */
+/* Footer Styles */
+#bottom-info {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; /* Adjusted to center-align text */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.widget {
+    margin-bottom: 2px;
+}
+
+.widget-title {
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.widget-body {
+    font-size: 12px;
+    text-align: center; /* Aligning content center */
+
+}
+
+
+
+.alumni-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.alumni-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.alumni-box p {
+    font-size: 16px;
+    color: #555;
+}
+
+.alumni-buttons {
+    margin-top: 20px;
+}
+
+.alumni-buttons .btn {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+/* Add some spacing between buttons */
+.alumni-buttons .btn:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+/* Adjust the button colors and styles as needed */
+.btn-secondary {
+    background-color: #6c757d;
+    margin-right: 10px;
+}
+.additional-info-box {
+    position: relative; /* Keep it relative */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 100%; /* Ensure it's wider than the maximum width of the inner content */
+   
+}
+
+
+.info-section {
+    max-width: 650px; /* Keep the maximum width of the inner content */
+    width: 100%;
+}
+
+.alert {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.alert-heading {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.alert p {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.alert ul {
+    padding-left: 10px;
+}
+
+.alert ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.alert ul li a {
+    color: #721c24;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.alert ul li a:hover {
+    color: #cc0000;
+}
