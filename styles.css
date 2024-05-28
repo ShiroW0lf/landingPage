@@ -57,7 +57,7 @@ header.secondary {
 }
 .login-note {
     font-size: 11px;
-    color: red; /* Change color to red */
+    color: #721c24; /* Change color to red */
     margin-top: 10px;
     font-style: italic; /* Make it italic */
 }
@@ -73,6 +73,8 @@ header.secondary {
     color: #000000;
     border-radius: 5px;
     transition: background-color 0.3s;
+    font-weight: bold;
+    
 }
 
 .btn-warning {
@@ -165,6 +167,7 @@ header.secondary {
 .btn-secondary {
     background-color: #6c757d;
     margin-right: 10px;
+    color:#ffffff;
 }
 .additional-info-box {
     position: relative; /* Keep it relative */
